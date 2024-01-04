@@ -1,0 +1,15 @@
+docdb:
+    source:  "https://github.com/Shoaibs411/tf-module-docdb.git"
+    version: "main"
+
+# rds:
+#     source:  "https://github.com/Shoaibs411/tf-module-rds.git"
+#     version: "main"
+
+# elasticcache:
+#     source:  "https://github.com/Shoaibs411/tf-module-elasticcache.git"
+#     version: "main"
+
+# rabbitmq:
+#     source:  "https://github.com/Shoaibs411/tf-module-rabbitmq.git"
+#     version: "main"
