@@ -1,4 +1,4 @@
-ENV                 = "dev"
+ENV                     = "dev"
 
-# DocumentDB Variables
-DOCDB_PORT          = 27017
+# DocumentDB Variables 
+DOCDB_PORT              = 27017
