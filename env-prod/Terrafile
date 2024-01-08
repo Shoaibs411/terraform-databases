@@ -2,9 +2,9 @@ docdb:
     source:  "https://github.com/Shoaibs411/tf-module-docdb.git"
     version: "main"
 
-# rds:
-#     source:  "https://github.com/Shoaibs411/tf-module-rds.git"
-#     version: "main"
+mysql:
+    source:  "https://github.com/Shoaibs411/tf-module-mysql.git"
+    version: "main"
 
 # elasticcache:
 #     source:  "https://github.com/Shoaibs411/tf-module-elasticcache.git"
