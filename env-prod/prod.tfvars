@@ -1,4 +1,7 @@
-ENV                 = "prod"
+ENV                     = "dev"
+
+# DocumentDB Variables 
+DOCDB_PORT              = 27017
 
 # RDS MYSQL Variables 
-MYSQL_PORT              = 27017
+MYSQl_PORT              = 3306
