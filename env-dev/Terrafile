@@ -6,9 +6,9 @@ mysql:
     source:  "https://github.com/Shoaibs411/tf-module-mysql.git"
     version: "main"
 
-# elasticcache:
-#     source:  "https://github.com/Shoaibs411/tf-module-elasticcache.git"
-#     version: "main"
+elasticcache:
+    source:  "https://github.com/Shoaibs411/tf-module-redis.git"
+    version: "main"
 
 # rabbitmq:
 #     source:  "https://github.com/Shoaibs411/tf-module-rabbitmq.git"
