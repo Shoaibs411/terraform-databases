@@ -5,6 +5,7 @@ module "docdb"{
   DOCDB_PORT            = var.DOCDB_PORT
   DOCDB_INSTANCE_TYPE   = var.DOCDB_INSTANCE_TYPE
   DOCDB_INSTANCE_COUNT  = var.DOCDB_INSTANCE_COUNT
+  DOCDB_ENGINE          = var.DOCDB_ENGINE
 }
 
 module "mysql"{
