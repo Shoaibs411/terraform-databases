@@ -20,6 +20,10 @@ module "redis"{
 
   ENV                   = var.ENV
   REDIS_PORT            = var.REDIS_PORT
+  REDIS_ENGINE          = var.REDIS_ENGINE
+  REDIS_ENGINE_FAMILY   = var.REDIS_ENGINE_FAMILY
+  REDIS_ENGINE_VERSION  = var.REDIS_ENGINE_VERSION
+  REDIS_INSTANCE_COUNT  = var.REDIS_INSTANCE_COUNT
 }
 
 # We cannot parametrize anything that's added n the source.
