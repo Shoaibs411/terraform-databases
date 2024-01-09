@@ -8,6 +8,11 @@ DOCDB_ENGINE            = "docdb"
 
 # RDS MYSQL Variables 
 MYSQl_PORT              = 3306
+MYSQL_STORAGE           = 10
+MYSQL_ENGINE            = "mysql"
+MYSQL_ENGINE_VERSION    = "5.7"
+MYSQL_INSTANCE_CLASS    = "db.t3.micro"
+MYSQL_ENGINE_FAMILY     = "mysql5.7"
 
 # Redis Variables
 REDIS_PORT              = 6379
