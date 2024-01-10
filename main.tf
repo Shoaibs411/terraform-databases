@@ -32,7 +32,7 @@ module "redis"{
 }
 
 module "rabbitmq" {
-  source                  = "./vendor/modules//rabbitmq"
+  source                  = "./vendor/modules/rabbitmq"
 
   ENV                     = var.ENV
   RABBITMQ_PORT_NUMBER    = VAR.RABBITMQ_PORT_NUMBER
