@@ -20,3 +20,8 @@ variable "REDIS_ENGINE" {}
 variable "REDIS_ENGINE_FAMILY" {}
 variable "REDIS_ENGINE_VERSION" {}
 variable "REDIS_INSTANCE_COUNT" {}
+
+# RabbitMQ Variables
+# RabbitMQ Variables
+variable "RABBITMQ_PORT_NUMBER" {}
+variable "RABBITMQ_INSTANCE_TYPE" {}
