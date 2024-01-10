@@ -31,13 +31,6 @@ module "redis"{
   REDIS_INSTANCE_COUNT    = var.REDIS_INSTANCE_COUNT
 }
 
-module "rabbitmq" {
-  source                  = "./vendor/modules/rabbitmq"
-
-  ENV                     = var.ENV
-  RABBITMQ_PORT_NUMBER    = var.RABBITMQ_PORT_NUMBER
-  RABBITMQ_INSTANCE_TYPE  = var.RABBITMQ_INSTANCE_TYPE
-}
 
 # We cannot parametrize anything that's added n the source.
 # To limit that, we can use a tool called as Terrafile. All it does is clonnes the remote code from the specified branch and make it locally available.

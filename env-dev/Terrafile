@@ -10,6 +10,6 @@ elasticcache:
     source:  "https://github.com/Shoaibs411/tf-module-redis.git"
     version: "main"
 
-rabbitmq:
-    source:  "https://github.com/Shoaibs411/tf-module-rabbitmq.git"
-    version: "main"
+# rabbitmq:
+#     source:  "https://github.com/Shoaibs411/tf-module-rabbitmq.git"
+#     version: "main"
