@@ -1,12 +1,12 @@
-module "docdb"{
-  source                  = "./vendor/modules/docdb"
+# module "docdb"{
+#   source                  = "./vendor/modules/docdb"
 
-  ENV                     = var.ENV
-  DOCDB_PORT              = var.DOCDB_PORT
-  DOCDB_INSTANCE_TYPE     = var.DOCDB_INSTANCE_TYPE
-  DOCDB_INSTANCE_COUNT    = var.DOCDB_INSTANCE_COUNT
-  DOCDB_ENGINE            = var.DOCDB_ENGINE
-}
+#   ENV                     = var.ENV
+#   DOCDB_PORT              = var.DOCDB_PORT
+#   DOCDB_INSTANCE_TYPE     = var.DOCDB_INSTANCE_TYPE
+#   DOCDB_INSTANCE_COUNT    = var.DOCDB_INSTANCE_COUNT
+#   DOCDB_ENGINE            = var.DOCDB_ENGINE
+# }
 
 module "mysql"{
   source                  = "./vendor/modules/mysql"
